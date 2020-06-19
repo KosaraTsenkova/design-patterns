@@ -12,10 +12,13 @@ public class MainClass {
 		User user = factory.getUser("Pesho");
 		User user1 = factory.getUser("Gosho");
 		User user2 = factory.getUser("Ivan");
+
+
 		
 		user.send("Hello cat!");
 		user.send("addBot");
 		user.send("Hello cat!");
 	}
-
+	
 }
+
